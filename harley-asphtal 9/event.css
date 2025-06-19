@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+   
+    font-family: Arial, sans-serif;
+    background-color: #7f7878;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+}
+.logo {
+    font-size: 24px;
+    width: 5vw;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.hightlight-event{
+    width: 100%;
+    height: 41.88vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(highlite-event.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    justify-content: space-evenly;
+ 
+}
+
+.button-hightlight{
+    width: 15vw;
+    height: 5vw;
+    background-color: red;
+    border-radius: 5vw;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px#000000;
+}
+.button-hightlight h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.txt-box{
+    width: 50vw;
+    height: 15vw;
+ 
+}
+
+.txt-box h1{
+    font-size: 6vw;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 10px #7f7878;
+    text-justify: distribute;
+}
+
+.txt-box h2{
+    font-size: 3vw;
+    font-weight: bold;
+    color: #fe0000;
+    text-align: center;
+    text-shadow: 5px 5px 10px #7f7878;
+    text-justify: distribute;
+}
+
+
+.mid-event{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mid-event h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 10px #7f7878;
+    text-justify: distribute;
+}
+
+.mid-event img{
+    width: 100vw;
+    height: 20vw;
+}
+
+.lower-event{
+    width: 100%;
+    height: 65vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.lower-event h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 10px #7f7878;
+    text-justify: distribute;
+}
+
+.lower-event img{
+    width: 80vw;
+    height: 40vw;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hightlight-event img{
+    width: 60vw;
+    height: 28vw;
+}
+
+
+
+.footer {
+    background-color: #292725;
+    color: #C7BF8C;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    width: 100%;
+    height: 25vw;
+}
+
+.footer img{
+    width:  35vw;
+    height: 20vh;
+}
+
+
+
+.footer p{
+    font-size: 50%;
+    display: flex;
+    text-align: center;
+}
+
+
+.footer-logo {
+    width: 206px; 
+    height: 76px; 
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 6vw;
+        width: 20%;
+    }
+
+    .nav ul li {
+        margin-right: 10px;
+    }
+
+    .nav ul li a {
+        font-size: 2vw;
+    }
+
+    .hightlight-event {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .hightlight-event img {
+        width: 50%;
+        height: auto;
+    }
+
+    .button-hightlight {
+        width: 30vw;
+        height: 5vh;
+        border-radius: 10vw;
+    }
+
+    .button-hightlight h1 {
+        font-size: 2vw;
+    }
+
+    .txt-box {
+        width: 90%;
+        height: auto;
+    }
+
+    .txt-box h1 {
+        font-size: 6vw;
+    }
+
+    .txt-box h2 {
+        font-size: 6vw;
+    }
+
+    .mid-event {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .mid-event h1 {
+        font-size: 7vw;
+    }
+
+    .mid-event img {
+        width: 90%;
+        height: auto;
+    }
+
+    .lower-event {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .lower-event h1 {
+        font-size: 8vw;
+    }
+
+    .lower-event img {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer {
+        height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .footer img {
+        width: 30%;
+        height: auto;
+    }
+
+    .footer p {
+        font-size: 2vw;
+        padding: 0 10px;
+    }
+}
+

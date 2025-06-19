@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subcription</title>
+    <link rel="stylesheet" href="subscription.css">
+
+    <script src="subcription.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="home.html"><img src="logo.png" class="logo"></a>
+        <nav class="nav">
+            <ul>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="subscription.html">SUBSCRIPTION</a></li>
+                <li><a href="event.html">ESPORTS</a></li>
+                <li><a href="news.html">NEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hightlight">
+        <h1>
+            SIGN UP TODAY AND JOIN MORE THAN 250,000 SIM RACERS ALL OVER THE WORLD!
+        </h1>
+        <div class="subscription-box">
+            <div class="container">
+                <h1>Join Us and feel the fun of the RACE !</h1>
+                <div class="buttons">
+                    <button class="button">NEWSLETTER</button>
+                    <button class="button">Creator</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <form id="subscriptionForm" action="home.html">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" name="firstname" required>
+
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname" required>
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="birthday">Birthday</label>
+                    <input type="text" id="birthday" name="birthday" placeholder="DD/MM/YYYY" required>
+
+                    <label for="country">COUNTRY</label>
+                    <input type="text" id="country" name="country" required>
+
+                    <label for="gender">GENDER</label>
+                    <div class="gender-options">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to Terms and Condition</label>
+                    </div>
+
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">I agree to get daily newsletter</label>
+                    </div>
+
+                    <button type="submit">SIGN ME UP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <img src="logo-footer.webp" alt="logo" class="footer">
+        <p>©2024 Gameloft. All rights reserved. Gameloft and the Gameloft logo are trademarks of Gameloft in the U.S. and/or other countries. All other trademarks are the property of their respective owners.</p>
+    </footer>
+
+</body>
+</html>
